@@ -1,45 +1,60 @@
 body {
-    background-color: #a7c1d1;
+    background-color: #222527;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 80px;
+    color: #222527;
 }
 
 h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 25px;
+    color: #222527;
 }
 
-/* URL BOX DISPLAY */
-.url-box {
-    width: 700px;
-    height: 100px;
+.box {
+    width: fill;
+    height: 300px;
     padding: 10px;
-    font-size: 30px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+
+/* CHAT BOX CONTAINER */
+.chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+/* MESSAGE BOX DISPLAY */
+.msg-box {
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
     border: 2px solid #333;
     border-radius: 5px;
     box-sizing: border-box;
-    display: block;
-    margin: 20px auto;
 }
 
-/* ENTER URL BOX BUTTON */
+/* ENTER MESSAGE BOX BUTTON */
 .enter-btn {
-    width: 400px;
-    height: 70px;
+    height: 50px;
     padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
-    border: #333;
+    border: 2px solid #333;
     border-radius: 5px;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #f6f5da;
+    background-color: #171717;
     text-align: center;
     display: block;
-    margin: 20px auto;
-    background-color: #6396b8;
 }
