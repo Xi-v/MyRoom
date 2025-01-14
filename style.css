@@ -1,0 +1,45 @@
+body {
+    background-color: #a7c1d1;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* URL BOX DISPLAY */
+.url-box {
+    width: 700px;
+    height: 100px;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ENTER URL BOX BUTTON */
+.enter-btn {
+    width: 400px;
+    height: 70px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: #333;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    background-color: #6396b8;
+}
