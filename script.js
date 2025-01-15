@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "tormenting won't work, i'm a website...",
         "Please",
         "Hurry Up!",
-        "Kendrick deserved to win",
         "I actually get tickled when you press the enter button",
         "Just remember I use your cookies... be warned.",
         "That tiCKles.. *hehe*",
