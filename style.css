@@ -23,6 +23,14 @@ h3 {
     background-color: white;
 }
 
+.msg-room {
+    width: fill;
+    height: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: white;
+}
+
 
 /* CHAT BOX CONTAINER */
 .chat-container {
