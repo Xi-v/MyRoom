@@ -15,12 +15,25 @@
     <br>
 
     <div class="msg-overlay">
-        <form class="chat-container">
-            <input type="text" class="msg-box" placeholder="Select a username...">
-            <button class="enter-btn" type="button">Enter</button>
+        <form class="chat-container" id="loginForm">
+            <input 
+                type="text" 
+                class="msg-box" 
+                placeholder="Select a username..." 
+                id="username" 
+                autocomplete="off"
+            >
+            <button 
+                class="enter-btn" 
+                type="submit">
+                Enter
+            </button>
         </form>
+        <!-- Error message display -->
+        <div id="error-message" class="error-message"></div>
     </div>
-    <h3 style="color: white;">Made by <a href="https://github.com/Xi-v" style="color: deepskyblue;">Xi-v</a> on GitHub</h3>
-    
+    <h3 style="color: white;">Made by <a href="https://github.com/Xi-v" target="_blank" style="color: deepskyblue;">Xi-v</a> on GitHub</h3>
+
+    <script src="script.js"></script>
 </body>
 </html>
