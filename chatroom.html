@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chatroom_style.css">
+    <title>ChatRoom</title>
+</head>
+<body>
+    <div class="chat-header">
+        <h1>Welcome to MyRoom</h1>
+        <h3 id="welcome-message">Loading...</h3>
+    </div>
+
+    <div id="chat-display" class="chat-box">
+    </div>
+
+    <form id="chat-form" class="chat-input-container">
+        <input type="text" id="message-input" class="message-input" placeholder="Type your message..." autocomplete="off" required>
+        <button type="submit" class="send-button">Send</button>
+    </form>
+
+    <script src="chatroom_script.js"></script>
+</body>
+</html>
